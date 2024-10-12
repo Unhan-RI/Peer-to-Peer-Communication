@@ -1,0 +1,16 @@
+2024-10-12 13:26:34 - Node localhost:5001 menambahkan tetangga node localhost:5002.
+2024-10-12 13:26:34 - Node localhost:5002 menambahkan tetangga node localhost:5001.
+2024-10-12 13:26:34 - Node localhost:5002 menambahkan tetangga node localhost:5003.
+2024-10-12 13:26:34 - Node localhost:5003 menambahkan tetangga node localhost:5002.
+2024-10-12 13:26:34 - File 'contoh.txt' ditambahkan ke node localhost:5001.
+2024-10-12 13:26:34 - Node localhost:5003 siap menerima koneksi...
+2024-10-12 13:26:34 - Node localhost:5001 siap menerima koneksi...
+2024-10-12 13:26:34 - Node localhost:5002 siap menerima koneksi...
+2024-10-12 13:26:35 - Node localhost:5002 menerima permintaan pencarian file 'contoh.txt' dari ('127.0.0.1', 64128)
+2024-10-12 13:26:35 - File 'contoh.txt' tidak ditemukan di node localhost:5002. Mencari di node tetangga...
+2024-10-12 13:26:35 - Node localhost:5001 menerima permintaan pencarian file 'contoh.txt' dari ('127.0.0.1', 64129)
+2024-10-12 13:26:35 - File 'contoh.txt' ditemukan di node localhost:5001.
+2024-10-12 13:26:35 - File 'contoh.txt' ditemukan di node localhost:5001.
+2024-10-12 13:26:35 - Waktu respon pencarian file di node localhost:5001: 0.000991s.
+2024-10-12 13:26:35 - Waktu respon total: 0.003009s, throughput: 11300.922102 bytes/s.
+2024-10-12 13:26:35 - File 'contoh.txt' tidak ditemukan di node localhost:5002.
